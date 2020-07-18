@@ -41,21 +41,27 @@ class teacher:
 				pass
 			
 
-
+# initialize an instancehh
 teacher_1 = teacher('Koimet','19/03006','0718207112','Physics')
 print('The repr-dunder method is used for debugging and '
 			'counterchecking errors. Mostly used by developers.')
-print('###Results after using the __repr__')
-print( )
+
+
+# Results after using __repr__
+print("\n")
 print(repr(teacher_1))
 print('=====================+++===================')
 print('The str-dunder method is used for displaying user-friendly'
 			' results for the end user. Used by end-users. ')
-print('###Results after using the __str__')
+
+
+# Results after using the __str__ in the class
 print('=====================+++===================')
 print(teacher_1)
 print('=====================+++===================')
 
+
+# display a dictionary of values
 print(teacher_1.__dict__)
 print( )
 teacher_1.add_field_and_value('age','45')
